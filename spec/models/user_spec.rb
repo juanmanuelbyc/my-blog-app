@@ -1,14 +1,12 @@
-require "rails_helper"
+require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  
   before(:each) do
-
     @test_user = User.create(name: 'Juan',
-                        photo: 'photo-link',
-                        bio: 'Microverse student',
-                        posts_counter: 0)
-    end
+                             photo: 'photo-link',
+                             bio: 'Microverse student',
+                             posts_counter: 0)
+  end
 
   context 'testing validation for User model' do
     it 'validate user name cant be empty' do

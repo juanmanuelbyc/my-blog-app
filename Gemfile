@@ -83,4 +83,3 @@ gem 'rails-controller-testing'
 gem 'htmlbeautifier'
 
 gem 'ffi', github: 'ffi/ffi', submodules: true
-
